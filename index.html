@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi primer sitio web</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      <script src="script.js"></script>
+  <header>
+    <h1>🐾 Tienda de Animales 🐾</h1>
+    <p>Todo lo que tu mascota necesita</p>
+  </header>
+
+  <nav>
+    <a href="#perros">Perros</a>
+    <a href="#gatos">Gatos</a>
+    <a href="#accesorios">Accesorios</a>
+    <a href="#alimentos">Alimentos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <!-- Sección de perros -->
+  <section id="perros" class="container">
+    <div class="card">
+      <img src="perrito1.jpg" alt="Cachorro">
+      <h3>Cachorro "Smile"" </h3>
+      <p>Juguetón y cariñoso. Edad: 3 meses.</p>
+      <button>Adoptar</button>
+    </div>
+    <div class="card">
+      <img src="perrito2.jpg" alt="Cachorro">
+      <h3>Cachorro "Odin"</h3>
+      <p>Tranquilo y fiel. Edad: 5 meses.</p>
+      <button>Adoptar</button>
+    </div>
+    <div class="card">
+      <img src="perrito3.jpg" alt="Perro">
+      <h3>Perrito "Max"</h3>
+      <p>Amoroso y Tranquilo . Edad: 2 años.</p>
+      <button>Adoptar</button>
+    </div>
+  </section>
+
+  <!-- Sección de gatos -->
+  <section id="gatos" class="container">
+    <div class="card">
+      <img src="gato1.jpg" alt="Gatito">
+      <h3>Gato "Keyla" </h3>
+      <p>Dulce y cariñoso. Edad: 4 meses.</p>
+      <button>Adoptar</button>
+    </div>
+    <div class="card">
+      <img src="gato2.jpg" alt="Gato">
+      <h3>Gato "Vainilla"</h3>
+      <p>Juguetón y curioso. Edad: 2 meses.</p>
+      <button>Adoptar</button>
+    </div>
+    <div class="card">
+      <img src="gato3.jpg" alt="Gato">
+      <h3>Gato "Tommy"</h3>
+      <p>Elegante y curioso. Edad: 3 años.</p>
+      <button>Adoptar</button>
+    </div>
+  </section>
+
+  <!-- Sección de accesorios -->
+  <section id="accesorios" class="container">
+    <div class="card">
+      <img src="collar.jpg" alt="Correa">
+      <h3>Correa resistente</h3>
+      <p>Perfecta para paseos largos.</p>
+      <button>Comprar</button>
+    </div>
+    <div class="card">
+      <img src="cama.png" alt="Cama">
+      <h3>Cama para mascotas</h3>
+      <p>Cómoda y suave.</p>
+      <button>Comprar</button>
+    </div>
+    <div class="card">
+      <img src="platoperro.jpg" alt="Plato de comida">
+      <h3>Plato para alimento de perro</h3>
+      <p>Grande y Plástico .</p>
+      <button>Comprar</button>
+    </div>
+  </section>
+
+  <!-- Sección de alimentos -->
+  <section id="alimentos" class="container">
+    <div class="card">
+      <img src="alimentoperro.jpg" alt="Alimento">
+      <h3>Alimento para perro "Equilibrio"</h3>
+      <p>Alto en nutrientes.</p>
+      <button>Comprar</button>
+    </div>
+    <div class="card">
+      <img src="alimentogato.jpg" alt="Concentrado">
+      <h3>Concentrado para gatos "Hils</h3>
+      <p>Alto en nutrientes.</p>
+      <button>Comprar</button>
+    </div>
+    <div class="card">
+      <img src="alimentoperro2.jpg" alt="Concentrado">
+      <h3>Concentrado para perros "Agility Gold" </h3>
+      <p>Alto en nutrientes.</p>
+      <button>Comprar</button>
+    </div>
+  </section>
+
+  <!-- Formulario de contacto -->
+  <section id="contacto" class="contacto">
+    <h2>📩 Contáctanos</h2>
+    <form id="formularioContacto">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mascota">¿Tienes mascota?</label>
+        <select id="mascota" name="mascota" required>
+          <option value="">Selecciona una opción</option>
+          <option value="si">Sí</option>
+          <option value="no">No</option>
+        </select>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+      <input type="checkbox" id="terminos" name="terminos" value="Acepto" required>
+      <label for="terminos">Acepto términos y condiciones</label><br>
+      
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+
+  <footer>
+    <p>© 2025 Tienda de Animales | Todos los derechos reservados</p>
+  </footer>
+
+
+</body>
+</html>
